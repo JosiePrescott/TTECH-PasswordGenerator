@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  font-size: 16px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e5e5e;
+  color: rgb(249, 19, 211);
+  text-shadow: 2px 2px 2px rgb(127, 55, 92);
+  background-image: url('Wallpaper\ de\ fundo✨.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  border: 2px solid black;
+  background-color: rgb(28, 32, 34);
+  padding: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 7px 7px 7px rgba(47, 52, 224, 0.794), -7px -7px 7px rgba(37, 240, 50, 0.794), -20px -20px 20px rgb(27, 134, 55), 20px 20px 20px rgb(35, 39, 121), 4px 4px 4px rgb(149, 201, 149), -4px -4px 4px rgb(172, 192, 241)}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 4px;
+}
+
+input {
+  margin: 0.8rem 0;
+}
+button {
+  display: block;
+  margin: 1.1rem auto;
+  padding: 1rem 1.1rem;
+  font-size: 0.9rem;
+  background-color: rgb(172, 192, 241);
+  color: rgba(47, 52, 224, 0.794);
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(149, 201, 149);
+  color: rgb(27, 134, 55);
+}
+
+#password {
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 1rem;
+  border: 3px solid #41ec16;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgb(249, 19, 211);
+  text-shadow: 2px 2px 2px rgb(127, 55, 92);
+  background: rgb(35, 39, 121);
+}
+
+input[type="number"]{
+    background-color: rgba(37, 240, 50, 0.794);
+    border: 3px solid rgb(35, 39, 121);
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    accent-color: rgba(37, 240, 50, 0.794);
+}
